@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./assets/css/globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const firaCode = Fira_Code({
   variable: "--font-fira-code",
@@ -19,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className='scroll-smooth'>
-      <body className={`${firaCode.variable} antialiased`}>{children}</body>
+      <body className={`${firaCode.variable} antialiased`}>
+        {children}
+        <SpeedInsights />
+        <Analytics />
+      </body>
     </html>
   );
 }
