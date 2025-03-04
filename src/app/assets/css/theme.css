@@ -1,0 +1,202 @@
+@theme {
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+  
+    /* Theme colors */
+    --color-theme-foreground: #90A1B9;
+    --color-theme-foregroundHeading: #90A1B9;
+    --color-theme-foregroundLink: #FFA1AD;
+    --color-theme-background: #0F172B;
+    --color-theme-backdrop: #020618;
+    --color-theme-stroke: #314158;
+    /* Theme colors */
+  
+    /* Neutral colors */
+    --color-gray-50: oklch(100% 0 0); /* #FFFFFF */
+    --color-gray-100: oklch(97.02% 0 0); /* #F5F5F5 */
+    --color-gray-200: oklch(92.19% 0 0); /* #E5E5E5 */
+    --color-gray-300: oklch(87.2% 0.0106 261.79); /* #D1D5DC */
+    --color-gray-400: oklch(86.99% 0 0); /* #D4D4D4 */
+    --color-gray-500: oklch(70.9% 0 0); /* #A1A1A1 */
+    --color-gray-600: oklch(55.55% 0 0); /* #737373 */
+    --color-gray-700: oklch(43.86% 0 0); /* #525252 */
+    --color-gray-800: oklch(37.15% 0 0); /* #404040 */
+    --color-gray-900: oklch(20.46% 0 0); /* #171717 */
+    --color-gray-950: oklch(14.48% 0 0); /* #0A0A0A */
+    /* Neutral colors */
+  
+    /* Main Color System */
+    /* Appearance */
+    --color-slate-50: oklch(98.42% 0.0034 247.86); /* #F8FAFC */
+    --color-slate-100: oklch(96.83% 0.0069 247.9); /* #F1F5F9 */
+    --color-slate-200: oklch(92.88% 0.0126 255.51); /* #E2E8F0 */
+    --color-slate-300: oklch(86.86% 0.0216 252.51); /* #CAD5E2 */
+    --color-slate-400: oklch(70.35% 0.0389 256) ; /* #90A1B9 */
+    --color-slate-500: oklch(55.07% 0.0461 257.53); /* #62748E */
+    --color-slate-600: oklch(44.54% 0.043 257.42); /* #45556C */
+    --color-slate-700: oklch(37.17% 0.0449 257.42); /* #314158 */
+    --color-slate-800: oklch(27.99% 0.0408 260.33); /* #1D293D */
+    --color-slate-900: oklch(20.84% 0.0417 266.36); /* #0F172B */
+    --color-slate-950: oklch(12.3% 0.0443 262.91); /* #020618 */
+    
+    /* Primary */
+    --color-orange-50: oklch(97.96% 0.0158 73.68);  /* #FFF7ED */
+    --color-orange-100: oklch(95.2% 0.0378 73.74);  /* #FFEDD4 */
+    --color-orange-200: oklch(89.99% 0.0763 70.44);  /* #FFD6A7 */
+    --color-orange-300: oklch(83.37% 0.1256 67.19);  /* #FFB86A */
+    --color-orange-400: oklch(74.58% 0.1802 56.73);  /* #FF8904 */
+    --color-orange-500: oklch(69.83% 0.2027 44.12);  /* #FF6900 */
+    --color-orange-600: oklch(64.55% 0.2164 36.92);  /* #F54900 */
+    --color-orange-700: oklch(55.16% 0.191966 35.3257);  /* #CA3500 */
+    --color-orange-800: oklch(46.96% 0.1566 37.15);  /* #9F2D00 */
+    --color-orange-900: oklch(40.73% 0.1228 38.02);  /* #7E2A0C */
+    --color-orange-950: oklch(26.62% 0.0789 35.91);  /* #441306 */
+    
+    /* Secondary */
+    --color-teal-50: oklch(98.36% 0.0142 180.72);  /* #F0FDFA */
+    --color-teal-100: oklch(95.2% 0.0507 181.07);  /* #CBFBF1 */
+    --color-teal-200: oklch(91.08% 0.0962 180.11);  /* #96F7E4 */
+    --color-teal-300: oklch(85.39% 0.1375 181.57);  /* #46ECD5 */
+    --color-teal-400: oklch(78.3% 0.140791 181.3751);  /* #00D5BE */
+    --color-teal-500: oklch(71.02% 0.128 180.98);  /* #00BBA7 */
+    --color-teal-600: oklch(60.49% 0.107 184.17);  /* #009689 */
+    --color-teal-700: oklch(51.52% 0.090469 185.7334);  /* #00786F */
+    --color-teal-800: oklch(43.72% 0.0762 187.33);  /* #005F5A */
+    --color-teal-900: oklch(38.4% 0.0628 188.67);  /* #0B4F4A */
+    --color-teal-950: oklch(27.66% 0.046 192.53);  /* #022F2E */
+    
+    --color-indigo-50: oklch(96.19% 0.0179 272.31);  /* #EEF2FF */
+    --color-indigo-100: oklch(92.92% 0.0337 271.04);  /* #E0E7FF */
+    --color-indigo-200: oklch(86.95% 0.0638 273.31);  /* #C6D2FF */
+    --color-indigo-300: oklch(78.26% 0.1103 273.93);  /* #A3B3FF */
+    --color-indigo-400: oklch(66.96% 0.1767 276.95);  /* #7C86FF */
+    --color-indigo-500: oklch(58.18% 0.2316 277.23);  /* #615FFF */
+    --color-indigo-600: oklch(51.02% 0.2618 276.94);  /* #4F39F6 */
+    --color-indigo-700: oklch(45.62% 0.2396 276.93);  /* #432DD7 */
+    --color-indigo-800: oklch(39.57% 0.1948 277.15);  /* #372AAC */
+    --color-indigo-900: oklch(35.8% 0.1438 278.26);  /* #312C85 */
+    --color-indigo-950: oklch(25.71% 0.0908 281.44);  /* #1E1A4D */
+    
+    --color-rose-50: oklch(96.94% 0.0152 12.42);  /* #FFF1F2 */
+    --color-rose-100: oklch(94.14% 0.0298 12.58);  /* #FFE4E6 */
+    --color-rose-200: oklch(89.13% 0.0582 10.39);  /* #FFCCD2 */
+    --color-rose-300: oklch(80.64% 0.1124 11.59);  /* #FFA1AD */
+    --color-rose-400: oklch(70.57% 0.19 12.98);  /* #FF637E */
+    --color-rose-500: oklch(64.35% 0.2452 16.5);  /* #FF2056 */
+    --color-rose-600: oklch(59.68% 0.23956 19.6949);  /* #EC003F */
+    --color-rose-700: oklch(52.35% 0.2099 18.84);  /* #C60036 */
+    --color-rose-800: oklch(45.69% 0.182668 14.824);  /* #A50036 */
+    --color-rose-900: oklch(41.05% 0.159 10.19);  /* #8B0836 */
+    --color-rose-950: oklch(27% 0.1049 12.3);  /* #4D0218 */
+    
+    /* Accent */
+    --color-purple-50: oklch(97.68% 0.0142 308.3);  /* #FAF5FF */
+    --color-purple-100: oklch(94.34% 0.0328 307.17);  /* #F3E8FF */
+    --color-purple-200: oklch(90.05% 0.062059 307.2014);  /* #E9D4FF */
+    --color-purple-300: oklch(82.27% 0.1148 307.46);  /* #DAB2FF */
+    --color-purple-400: oklch(70.9% 0.1958 306.73);  /* #C27AFF */
+    --color-purple-500: oklch(62.17% 0.2589 305.31);  /* #AD46FF */
+    --color-purple-600: oklch(55.73% 0.288 302.32);  /* #9810FA */
+    --color-purple-700: oklch(49.72% 0.2626 301.9);  /* #8200DB */
+    --color-purple-800: oklch(43.65% 0.2183 303.53);  /* #6E11B0 */
+    --color-purple-900: oklch(38.02% 0.1761 304.78);  /* #59168B */
+    --color-purple-950: oklch(29.09% 0.1487 302.99);  /* #3C0366 */
+    /* Main Color System */
+  
+    /* Semantic colors */          
+    --color-error-50: oklch(97.05% 0.0129 17.38);  /* #FEF2F2 */
+    --color-error-100: oklch(93.65% 0.032 17.74);  /* #FFE2E2 */
+    --color-error-200: oklch(88.34% 0.0616 18.39);  /* #FFC9C9 */
+    --color-error-300: oklch(80.53% 0.1109 19.78);  /* #FFA2A2 */
+    --color-error-400: oklch(70.22% 0.1892 22.23);  /* #FF6467 */
+    --color-error-500: oklch(63.78% 0.2373 25.44);  /* #FB2C36 */
+    --color-error-600: oklch(58.3% 0.238666 28.4765);  /* #E7000B */
+    --color-error-700: oklch(50.95% 0.208583 28.513);  /* #C10007 */
+    --color-error-800: oklch(44.46% 0.1774 26.79);  /* #9F0712 */
+    --color-error-900: oklch(39.67% 0.1408 25.71);  /* #82181A */
+    --color-error-950: oklch(25.75% 0.0918 25.84);  /* #460809 */
+               
+    --color-success-50: oklch(98.19% 0.0181 155.83);  /* #F0FDF4 */
+    --color-success-100: oklch(96.24% 0.0434 156.74);  /* #DCFCE7 */
+    --color-success-200: oklch(92.58% 0.0845 155.86);  /* #B9F8CF */
+    --color-success-300: oklch(87.02% 0.1499 154.28);  /* #7BF1A7 */
+    --color-success-400: oklch(79.14% 0.2091 151.66);  /* #05DF72 */
+    --color-success-500: oklch(72.89% 0.2119 147.82);  /* #00C950 */
+    --color-success-600: oklch(63.2% 0.185972 147.3695);  /* #00A63E */
+    --color-success-700: oklch(52.95% 0.150359 148.746);  /* #008235 */
+    --color-success-800: oklch(44.68% 0.1187 151.4);  /* #016630 */
+    --color-success-900: oklch(39.35% 0.0957 152.28);  /* #0D542B */
+    --color-success-950: oklch(26.54% 0.0651 152.77);  /* #032E15 */
+              
+    --color-warning-50: oklch(98.73% 0.0262 102.21);  /* #FEFCE8 */
+    --color-warning-100: oklch(97.27% 0.0706 103.29);  /* #FEF9C2 */
+    --color-warning-200: oklch(94.53% 0.1293 101.4);  /* #FFF085 */
+    --color-warning-300: oklch(90.32% 0.1817 98.27);  /* #FFDF20 */
+    --color-warning-400: oklch(85.35% 0.1744 88.77);  /* #FDC700 */
+    --color-warning-500: oklch(79.77% 0.1641 82.71);  /* #F0B100 */
+    --color-warning-600: oklch(68.22% 0.1465 71.47);  /* #D08700 */
+    --color-warning-700: oklch(55.48% 0.12708 62.5245);  /* #A65F00 */
+    --color-warning-800: oklch(47.76% 0.1115 60.43);  /* #894B00 */
+    --color-warning-900: oklch(42.15% 0.0952 57.94);  /* #733E0A */
+    --color-warning-950: oklch(28.71% 0.0662 54.59);  /* #432004 */
+    /* Semantic colors */
+    
+    --spacing: 0.25rem;
+    
+    --breakpoint-sm: 40rem;
+    --breakpoint-md: 48rem;
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 80rem;
+    --breakpoint-2xl: 96rem;
+    --breakpoint-3xl: 120rem;
+  
+    --container-3xs: 16rem;
+    --container-2xs: 18rem;
+    --container-xs: 20rem;
+    --container-sm: 24rem;
+    --container-md: 28rem;
+    --container-lg: 32rem;
+    --container-xl: 36rem;
+    --container-2xl: 42rem;
+    --container-3xl: 48rem;
+    --container-4xl: 56rem;
+    --container-5xl: 64rem;
+    --container-6xl: 72rem;
+    --container-7xl: 80rem;
+    --container-8xl: 120rem;
+  
+    --animate-spin: spin 1s linear infinite;
+    --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    --animate-bounce: bounce 1s infinite;
+  
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+  
+    @keyframes ping {
+        75%, 100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+  
+    @keyframes pulse {
+        50% {
+            opacity: 0.5;
+        }
+    }
+  
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(-25%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+            transform: none;
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+  }

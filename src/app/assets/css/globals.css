@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./theme.css" layer(theme);
+@import "./preflight.css" layer(base);
+@import "./utilities.css" layer(utilities);
+
+@custom-variant dark (&:where(.dark, .dark *)); 
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+

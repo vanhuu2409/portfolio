@@ -1,0 +1,26 @@
+body {
+    font-family: "Fira Code", Helvetica, sans-serif;
+  }
+  
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+}
+
+@layer components {
+    .card {
+      background-color: var(--color-white); 
+      border-radius: var(--rounded-lg);  
+      padding: var(--spacing-6) !important;  
+      box-shadow: var(--shadow-xl); 
+      @variant dark {
+        color: var(--color-black);
+        @variant hover {
+          color: var(--color-white);
+          background-color: black;
+          }
+        }
+    }
+}
